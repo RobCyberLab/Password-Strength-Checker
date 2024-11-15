@@ -31,11 +31,18 @@ The application will be ready to use, and no additional setup is required.
 
 ### Strength Criteria
 The password strength is evaluated based on the following criteria:
-1. **Length**: The password should be at least 8 characters long.
+1. **Length**: The password should be at least 8 characters long. Passwords with 10 or more characters are considered even stronger.
 2. **Lowercase Letters**: The password should contain at least one lowercase letter.
 3. **Uppercase Letters**: The password should contain at least one uppercase letter.
 4. **Numbers**: The password should contain at least one numeric digit.
 5. **Special Characters**: The password should contain at least one special character.
+
+### The "8 4 Rule"
+The application follows the "8 4 Rule" for password strength:
+- **8** = Minimum of 8 characters in length
+- **4** = At least 1 lowercase letter, 1 uppercase letter, 1 number, and 1 special character
+
+By adhering to the "8 4 Rule," users can create passwords that are significantly stronger than those that don't follow any guidelines. It is highly recommended to ensure that passwords for sensitive accounts, such as banking and financial websites, follow the "8 4 Rule" at a minimum.
 
 ### Strength Levels
 The application defines the following strength levels:
