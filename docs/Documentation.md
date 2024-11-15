@@ -61,9 +61,9 @@ The application defines the following strength levels:
 
 ### Example 1: Very Weak Password
 Input:
-
+```
 pass
-
+```
 Output:
 - Strength Meter: 20% filled, red color
 - Strength Text: Very Weak
@@ -80,11 +80,11 @@ Output:
   <em>Example 1: Very Weak Password</em>
 </p>
 
-### Example 2: Very Weak Password
+### Example 2: Weak Password
 Input:
-
+```
 password
-
+```
 Output:
 - Strength Meter: 40% filled, yellow color
 - Strength Text: Weak
@@ -104,11 +104,11 @@ Output:
 
 ### Example 3: Moderate Password
 Input:
-
+```
 password123
-
+```
 Output:
-- Strength Meter: 60% filled, light green color
+- Strength Meter: 60% filled, faded green color
 - Strength Text: Moderate
 - Requirements:
   - ✓ At least one lowercase letter
@@ -125,9 +125,9 @@ Output:
 
 ### Example 4: Good Password
 Input:
-
+```
 password{}1
-
+```
 Output:
 - Strength Meter: 80% filled, blue color
 - Strength Text: Good
@@ -147,11 +147,11 @@ Output:
 
 ### Example 5: Strong Password
 Input:
-
+```
 Str0ngP@ssw0rd!
-
+```
 Output:
-- Strength Meter: 100% filled, dark green color
+- Strength Meter: 100% filled, light green color
 - Strength Text: Strong
 - Requirements:
   - ✓ At least one lowercase letter
