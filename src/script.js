@@ -56,15 +56,9 @@ pass.addEventListener("input", () => {
                 strengthMeter.style.backgroundColor = "#2d89ef"; // Blue for good
                 break;
             case 4:
-                if (uniqueChars >= 5) {
-                    msg.innerHTML = "Strong"; // Message for strong passwords
-                    strengthMeter.style.width = "100%"; // Full width for strong passwords
-                    strengthMeter.style.backgroundColor = "#26d730"; // Dark green for strong
-                } else {
-                    msg.innerHTML = "Good"; // Message for passwords lacking diversity
-                    strengthMeter.style.width = "80%"; // Good password width
-                    strengthMeter.style.backgroundColor = "#2d89ef"; // Blue for good
-                }
+                msg.innerHTML = "Strong"; // Message for strong passwords
+                strengthMeter.style.width = "100%"; // Full width for strong passwords
+                strengthMeter.style.backgroundColor = "#26d730"; // Dark green for strong
                 break;
         }
     }
