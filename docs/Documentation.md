@@ -61,3 +61,107 @@ The application defines the following strength levels:
 
 ### Example 1: Very Weak Password
 Input:
+
+pass
+
+Output:
+- Strength Meter: 20% filled, red color
+- Strength Text: Very Weak
+- Requirements:
+  - ✓ At least one lowercase letter
+  - ✕ At least one uppercase letter
+  - ✕ At least one special character
+  - ✕ Minimum 8 characters
+  - ✕ At least one number
+
+<p align="center">
+  <img src="example1.png" alt="Example 1: Very Weak Password" width="500">
+  <br>
+  <em>Example 1: Very Weak Password</em>
+</p>
+
+### Example 2: Very Weak Password
+Input:
+
+password
+
+Output:
+- Strength Meter: 40% filled, yellow color
+- Strength Text: Weak
+- Requirements:
+  - ✓ At least one lowercase letter
+  - ✕ At least one uppercase letter
+  - ✕ At least one special character
+  - ✓ Minimum 8 characters
+  - ✕ At least one number
+
+<p align="center">
+  <img src="example5.png" alt="Example 2: Weak Password" width="500">
+  <br>
+  <em>Example 12: Very Weak Password</em>
+</p>
+
+
+### Example 3: Moderate Password
+Input:
+
+password123
+
+Output:
+- Strength Meter: 60% filled, light green color
+- Strength Text: Moderate
+- Requirements:
+  - ✓ At least one lowercase letter
+  - ✕ At least one uppercase letter
+  - ✕ At least one special character
+  - ✓ Minimum 8 characters
+  - ✓ At least one number
+
+<p align="center">
+  <img src="example2.png" alt="Example 3: Moderate Password" width="500">
+  <br>
+  <em>Example 3: Moderate Password</em>
+</p>
+
+### Example 4: Good Password
+Input:
+
+password{}1
+
+Output:
+- Strength Meter: 80% filled, blue color
+- Strength Text: Good
+- Requirements:
+  - ✓ At least one lowercase letter
+  - ✕ At least one uppercase letter
+  - ✓ At least one special character
+  - ✓ Minimum 8 characters
+  - ✓ At least one number
+
+<p align="center">
+  <img src="example3.png" alt="Example 4: Good Password" width="500">
+  <br>
+  <em>Example 4: Good Password</em>
+</p>
+
+
+### Example 5: Strong Password
+Input:
+
+Str0ngP@ssw0rd!
+
+Output:
+- Strength Meter: 100% filled, dark green color
+- Strength Text: Strong
+- Requirements:
+  - ✓ At least one lowercase letter
+  - ✓ At least one uppercase letter
+  - ✓ At least one special character
+  - ✓ Minimum 8 characters
+  - ✓ At least one number
+
+<p align="center">
+  <img src="example4.png" alt="Example 5: Strong Password" width="500">
+  <br>
+  <em>Example 5: Strong Password</em>
+</p>
