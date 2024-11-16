@@ -1,4 +1,4 @@
-# 🔒 Password Strength Checker
+# 🛠️Password Strength Checker📋
 ## Table of Contents 📑
 1. [Introduction](#introduction-)
 2. [Current Features](#current-features-)
